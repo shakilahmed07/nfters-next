@@ -1,4 +1,9 @@
 import Head from "next/head";
+import Collection from "../components/Collection";
+import Discover from "../components/Discover";
+import SellNfts from "../components/SellNfts";
+import TopCollections from "../components/TopCollections";
+import Transaction from "../components/Transaction";
 
 export default function Home() {
   return (
@@ -9,8 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-gray-200 h-screen">
-        <h1 className="text-3xl font-bold">main Section</h1>
+      <main>
+       <Discover />
+       <Transaction />
+       <TopCollections />
+       <Collection />
+       <SellNfts />
       </main>
     </div>
   );

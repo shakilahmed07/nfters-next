@@ -4,7 +4,7 @@ import NFters from "../public/NFters.png";
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between  h-[70px] border-b-2 border-gray-200 w-10/12 mx-auto">
+    <div className="flex items-center justify-between  h-[70px] w-10/12 mx-auto sticky top-0 bg-white">
       <Image src={NFters} alt="" />
       <div>
         <ul className="flex">
