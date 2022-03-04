@@ -4,14 +4,33 @@ import DiscoverTwo from "../../public/discover-2.png"
 import DiscoverThree from "../../public/discover-3.png"
 import CollectionThree from "../../public/collection-3.png"
 import EthereumOne from "../../public/ethereum-1.png"
+import EllipseOne from "../../public/Ellipse-1.png"
+import EllipseTwo from "../../public/Ellipse-2.png"
+import EllipseThree from "../../public/Ellipse-3.png"
+import EllipseFour from "../../public/Ellipse-4.png"
 
 
 const NftsCards = () => {
   return (
-    <div className='grid grid-cols-4 gap-4 py-5'>
-        <div className='bg-white shadow-md rounded-md p-4'>
+    <div className='grid sm:grid-cols-4 gap-4 py-5'>
+        <div className='bg-white shadow-sm hover:shadow-md rounded-md p-4 relative'>
             <div className='mb-4'>
                 <Image src={DiscoverOne} alt="" height={"300px"} width={"300px"} />
+            </div>
+            {/* avatar college group photo */}
+            <div className='flex absolute sm:top-[62%] sm:left-[8%]  top-[61%] left-[8%]'>
+                <div>
+                <Image src={EllipseOne} alt=""/>
+                </div>
+                <div className='-ml-4'>
+                <Image src={EllipseTwo} alt="" />
+                </div>
+               <div className='-ml-4'>
+               <Image src={EllipseThree} alt="" />
+               </div>
+               <div className='-ml-4'>
+               <Image src={EllipseFour} alt="" />
+               </div>
             </div>
             <div className='flex flex-col space-y-2'>
                 <p className='font-semibold text-lg'>ArtCrypto</p>
@@ -29,9 +48,24 @@ const NftsCards = () => {
             </div>
         </div>
         {/* second */}
-        <div className='bg-white shadow-md rounded-md p-4'>
+        <div className='bg-white shadow-sm hover:shadow-md rounded-md p-4 relative'>
             <div className='mb-4'>
                 <Image src={DiscoverTwo} alt="" height={"300px"} width={"300px"} />
+            </div>
+            {/* avatar college group photo */}
+            <div className='absolute top-[62%] left-[8%] flex'>
+                <div>
+                <Image src={EllipseOne} alt=""/>
+                </div>
+                <div className='-ml-4'>
+                <Image src={EllipseTwo} alt="" />
+                </div>
+               <div className='-ml-4'>
+               <Image src={EllipseThree} alt="" />
+               </div>
+               <div className='-ml-4'>
+               <Image src={EllipseFour} alt="" />
+               </div>
             </div>
             <div className='flex flex-col space-y-2'>
                 <p className='font-semibold text-lg'>ArtCrypto</p>
@@ -49,9 +83,24 @@ const NftsCards = () => {
             </div>
         </div>
        {/* third */}
-       <div className='bg-white shadow-md rounded-md p-4'>
+       <div className='bg-white shadow-sm hover:shadow-md rounded-md p-4 relative'>
             <div className='mb-4'>
                 <Image src={DiscoverThree} alt="" height={"300px"} width={"300px"} />
+            </div>
+            {/* avatar college group photo */}
+            <div className='absolute top-[62%] left-[8%] flex'>
+                <div>
+                <Image src={EllipseOne} alt=""/>
+                </div>
+                <div className='-ml-4'>
+                <Image src={EllipseTwo} alt="" />
+                </div>
+               <div className='-ml-4'>
+               <Image src={EllipseThree} alt="" />
+               </div>
+               <div className='-ml-4'>
+               <Image src={EllipseFour} alt="" />
+               </div>
             </div>
             <div className='flex flex-col space-y-2'>
                 <p className='font-semibold text-lg'>ArtCrypto</p>
@@ -69,9 +118,24 @@ const NftsCards = () => {
             </div>
         </div>
         {/* four */}
-        <div className='bg-white shadow-md rounded-md p-4'>
+        <div className='bg-white shadow-sm hover:shadow-md rounded-md p-4 relative'>
             <div className='mb-4'>
                 <Image src={CollectionThree} alt="" height={"300px"} width={"300px"} />
+            </div>
+            {/* avatar college group photo */}
+            <div className='absolute top-[62%] left-[8%] flex'>
+                <div>
+                <Image src={EllipseOne} alt=""/>
+                </div>
+                <div className='-ml-4'>
+                <Image src={EllipseTwo} alt="" />
+                </div>
+               <div className='-ml-4'>
+               <Image src={EllipseThree} alt="" />
+               </div>
+               <div className='-ml-4'>
+               <Image src={EllipseFour} alt="" />
+               </div>
             </div>
             <div className='flex flex-col space-y-2'>
                 <p className='font-semibold text-lg'>ArtCrypto</p>

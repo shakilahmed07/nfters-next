@@ -9,13 +9,13 @@ import discoverTwo from "../public/discover-2.png";
 
 const Collection = () => {
   return (
-    <div className="bg-[#D9E0EC33] h-[600px] py-10">
+    <div className="bg-[#D9E0EC33] h-[600px] py-10 hidden sm:inline">
       <div className="w-10/12 mx-auto">
         <h2 className="text-[28px] font-extrabold mb-10">
           COLLECTION FEATURED NFTS
         </h2>
 
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-3 gap-4">
           <div>
             <div className="flex justify-between">
               <div>

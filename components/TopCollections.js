@@ -14,7 +14,7 @@ import cryptoFive from "../public/crypto-5.png";
 
 const TopCollections = () => {
   return (
-    <div className="grid grid-cols-3 gap-10 w-10/12 mx-auto py-10">
+    <div className="grid sm:grid-cols-3 gap-10 w-10/12 mx-auto py-10">
       <div>
         <div>
           <Image src={TopCollection} alt="" />
