@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Avatar from "../public/avatar.webp"
+
 const Discover = () => {
   return (
     <div className="w-10/12 mx-auto grid grid-cols-2 gap-10 h-[440px] py-10">
@@ -25,11 +28,11 @@ const Discover = () => {
       </div>
       {/* discover Image slide */}
       <div className="bg-[url('../public/discover-1.png')] bg-contain bg-no-repeat">
-        <div className="text-white pt-4 pl-4">
+        <div className="text-white pt-4 pl-4 space-y-2">
           <p className="font-semibold">Abstr Gradient NFT</p>
-          <div>
-            {/* avatar */}
-            <p>shakil7</p>
+          <div className="flex space-x-2 items-center">
+            <Image src={Avatar} alt="" height={"25px"} width={"25px"} className="rounded-full" />
+            <p className="-mt-1">Tanvir</p>
           </div>
         </div>
         {/* last item */}

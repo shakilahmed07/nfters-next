@@ -1,3 +1,8 @@
+import Image from "next/image"
+import Facebook from "../public/facebook.png"
+import Twitter from "../public/twitter.png"
+import Linkedin from "../public/linkedin.png"
+
 const Footer = () => {
   return (
     <div className='grid grid-cols-4 gap-4 py-10 w-10/12 mx-auto'>
@@ -5,10 +10,10 @@ const Footer = () => {
         <p className="font-extrabold text-2xl">NFTERS</p>
         <div>
           <p className="text-sm text-gray-500 w-10/12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut fuga incidunt ea quibusdam fugit adipisci.</p>
-          <div className="py-4 flex">
-            <icon>f</icon>
-            <icon>t</icon>
-            <icon>i</icon>
+          <div className="flex py-4">
+            <Image src={Facebook} alt="" />
+            <Image src={Twitter} alt="" />
+            <Image src={Linkedin} alt="" />
           </div>
         </div>
       </div>

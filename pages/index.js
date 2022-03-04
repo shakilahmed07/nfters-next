@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Collection from "../components/Collection";
 import Discover from "../components/Discover";
+import MoreNfts from "../components/morenfts";
 import SellNfts from "../components/SellNfts";
 import TopCollections from "../components/TopCollections";
 import Transaction from "../components/Transaction";
@@ -20,6 +21,7 @@ export default function Home() {
        <TopCollections />
        <Collection />
        <SellNfts />
+       <MoreNfts />
       </main>
     </div>
   );
