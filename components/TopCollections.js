@@ -45,7 +45,7 @@ const TopCollections = () => {
         </div>
       </div>
       {/* middle */}
-      <div className="flex flex-col items-center space-y-4 border-r-2 border-gray-200">
+      <div className="flex flex-col items-center space-y-4 sm:border-r-2 border-gray-200">
        <div className="flex">
        <div>
           <Image src={CollectionOne} alt="" />

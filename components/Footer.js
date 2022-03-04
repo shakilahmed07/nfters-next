@@ -5,7 +5,7 @@ import Linkedin from "../public/linkedin.png";
 
 const Footer = () => {
   return (
-    <div className="grid sm:grid-cols-4 sm:gap-4 sm:py-12  py-12 w-10/12 mx-auto">
+    <div className="grid sm:grid-cols-4 sm:gap-4 sm:py-12  py-10 w-10/12 mx-auto">
       <div className="sm:space-y-2 space-y-4">
         <p className="font-extrabold text-2xl">NFTERS</p>
         <div className="space-y-4">
