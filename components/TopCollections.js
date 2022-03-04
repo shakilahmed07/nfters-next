@@ -17,7 +17,7 @@ const TopCollections = () => {
     <div className="grid sm:grid-cols-3 gap-10 w-10/12 mx-auto py-10">
       <div>
         <div>
-          <Image src={TopCollection} alt="" />
+          <Image src={TopCollection} alt=""  layout="responsive" />
         </div>
         <div className="flex items-center justify-between mr-4 mt-4">
           <div className="flex justify-start items-center">
@@ -51,7 +51,7 @@ const TopCollections = () => {
           <Image src={CollectionOne} alt="" />
         </div>
         <div className="ml-5 space-y-4 p-2">
-          <h5 className="font-semibold text-[20px]">The Futr Abstr</h5>
+          <h5 className="sm:font-semibold text-sm sm:text-[20px]">The Futr Abstr</h5>
           <div className="flex space-x-2 items-center justify-center">
             <div>
               <Image
@@ -63,7 +63,7 @@ const TopCollections = () => {
               />
             </div>
             <div className="flex border-2 px-[3px] py-[1px] border-[#00AC4F] rounded-md items-center justify-center">
-              <div className="mr-2 mt-1">
+              <div className="sm:mr-2 sm:mt-1">
                 <Image
                   src={EthereumOne}
                   alt=""
@@ -72,12 +72,12 @@ const TopCollections = () => {
                 />
               </div>
               <div>
-              <p className="text-sm mr-2 text-[#00AC4F]">0.25 ETH</p>
+              <p className="sm:text-sm text-xs sm:mr-2 text-[#00AC4F]">0.25 ETH</p>
               </div>
             </div>
-            <p className="text-sm text-gray-500">1 of 8</p>
+            <p className="sm:text-sm text-xs text-gray-500">1 of 8</p>
           </div>
-          <button className="bg-[rgb(61,0,183)] text-white rounded-3xl text-sm px-5 py-[8px]">place a bid</button>
+          <button className="bg-[rgb(61,0,183)] text-white rounded-full text-sm sm:px-5 px-3 sm:py-[8px] py-[4px]">place a bid</button>
         </div>
        </div>
        {/* second */}
@@ -86,7 +86,7 @@ const TopCollections = () => {
           <Image src={CollectionTwo} alt="" />
         </div>
         <div className="ml-5 space-y-4 p-2">
-          <h5 className="font-semibold text-[20px]">The Futr Abstr</h5>
+          <h5 className="sm:font-semibold text-sm sm:text-[20px]">The Futr Abstr</h5>
           <div className="flex space-x-2 items-center justify-center">
             <div>
               <Image
@@ -98,7 +98,7 @@ const TopCollections = () => {
               />
             </div>
             <div className="flex border-2 px-[3px] py-[1px] border-[#00AC4F] rounded-md items-center justify-center">
-              <div className="mr-2 mt-1">
+              <div className="sm:mr-2 sm:mt-1">
                 <Image
                   src={EthereumOne}
                   alt=""
@@ -107,12 +107,12 @@ const TopCollections = () => {
                 />
               </div>
               <div>
-              <p className="text-sm mr-2 text-[#00AC4F]">0.25 ETH</p>
+              <p className="sm:text-sm text-xs sm:mr-2 text-[#00AC4F]">0.25 ETH</p>
               </div>
             </div>
-            <p className="text-sm text-gray-500">1 of 8</p>
+            <p className="sm:text-sm text-xs text-gray-500">1 of 8</p>
           </div>
-          <button className="text-[#3D00B7] border-2 border-[#3D00B7] rounded-3xl text-sm px-5 py-[8px]">place a bid</button>
+          <button className="text-[#3D00B7] border-2 border-[#3D00B7] rounded-full text-sm sm:px-5 px-3 sm:py-[8px] py-[4px]">place a bid</button>
         </div>
        </div>
        {/* third */}
@@ -121,7 +121,7 @@ const TopCollections = () => {
           <Image src={CollectionThree} alt="" />
         </div>
         <div className="ml-5 space-y-4 p-2">
-          <h5 className="font-semibold text-[20px]">The Futr Abstr</h5>
+          <h5 className="sm:font-semibold text-sm sm:text-[20px]">The Futr Abstr</h5>
           <div className="flex space-x-2 items-center justify-center">
             <div>
               <Image
@@ -133,7 +133,7 @@ const TopCollections = () => {
               />
             </div>
             <div className="flex border-2 px-[3px] py-[1px] border-[#00AC4F] rounded-md items-center justify-center">
-              <div className="mr-2 mt-1">
+              <div className="sm:mr-2 sm:mt-1">
                 <Image
                   src={EthereumOne}
                   alt=""
@@ -142,18 +142,18 @@ const TopCollections = () => {
                 />
               </div>
               <div>
-              <p className="text-sm mr-2 text-[#00AC4F]">0.25 ETH</p>
+              <p className="sm:text-sm text-xs sm:mr-2 text-[#00AC4F]">0.25 ETH</p>
               </div>
             </div>
-            <p className="text-sm text-gray-500">1 of 8</p>
+            <p className="sm:text-sm text-xs text-gray-500">1 of 8</p>
           </div>
-          <button className="text-[#3D00B7] border-2 border-[#3D00B7] rounded-3xl text-sm px-5 py-[8px]">place a bid</button>
+          <button className="text-[#3D00B7] border-2 border-[#3D00B7] rounded-full text-sm sm:px-5 px-3 sm:py-[8px] py-[4px]">place a bid</button>
         </div>
        </div>
       </div>
       {/* collection */}
       <div className="space-y-4 w-8/12">
-        <h5 className="font-extrabold text-xl">TOP COLLECTIONS OVER</h5>
+        <h5 className="font-extrabold sm:text-xl">TOP COLLECTIONS OVER</h5>
         <p className="font-semibold text-[#3D00B7]">Last 7 days</p>
         <div className="flex items-center space-x-4 space-y-2 border-b-2 border-gray-200 pb-[10px]">
           <p className="text-2xl font-bold">1</p>

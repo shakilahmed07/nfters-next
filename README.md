@@ -2,11 +2,11 @@
 
 ## Live Site
 
-Preview : [NFTERS](https://nfters-next.vercel.app/):
+Preview : [NFTERS](https://nfters-next.vercel.app/)
 
 ## Github Repository
 
-Github Repo with Frontend : [Github](https://github.com/tanvir-shakil/nfters-next):
+Github Repo with Frontend : [Github](https://github.com/tanvir-shakil/nfters-next)
 
 ## Technology Using
 

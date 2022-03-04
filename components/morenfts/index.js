@@ -6,8 +6,8 @@ import Image from 'next/image'
 const MoreNfts = () => {
   return (
     <div className='bg-[#D9E0EC33] '>
-      <div className='w-10/12 mx-auto py-10 space-y-4'>
-        <h2 className='font-extrabold text-3xl'>DISCOVER MORE NFTS</h2>
+      <div className='w-10/12 mx-auto sm:py-10 py-5 sm:space-y-4'>
+        <h2 className='sm:font-extrabold font-bold sm:text-3xl'>DISCOVER MORE NFTS</h2>
         <div className='sm:flex items-center justify-between text-sm hidden'>
           <div className='flex items-center justify-center space-x-4'>
             <p className='bg-[rgb(61,0,183)] hover:bg-[rgba(61,0,183,0.88)] rounded-full px-4 py-[6px] text-white cursor-pointer'>All Categories</p>

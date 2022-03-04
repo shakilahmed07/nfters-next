@@ -18,7 +18,7 @@ const NftsCards = () => {
                 <Image src={DiscoverOne} alt="" height={"300px"} width={"300px"} />
             </div>
             {/* avatar college group photo */}
-            <div className='flex absolute sm:top-[62%] sm:left-[8%]  top-[61%] left-[8%]'>
+            <div className='flex absolute sm:top-[62%] sm:left-[8%]  top-[62%] left-[8%]'>
                 <div>
                 <Image src={EllipseOne} alt=""/>
                 </div>
