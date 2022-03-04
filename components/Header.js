@@ -10,11 +10,11 @@ const Header = () => {
         <Image src={NFters} alt="" />
         <div className="hidden sm:inline">
           <ul className="flex space-x-8">
-            <li className="text-sm font-semibold cursor-pointer">
+            <li className="nft-nav">
               Marketplace
             </li>
-            <li className="text-sm font-semibold cursor-pointer">Resource</li>
-            <li className="text-sm font-semibold cursor-pointer">About</li>
+            <li className="nft-nav">Resource</li>
+            <li className="nft-nav">About</li>
           </ul>
         </div>
 
@@ -27,10 +27,10 @@ const Header = () => {
           />
         </div>
         <div className="flex items-center justify-center">
-          <button className="bg-[rgb(61,0,183)] text-white rounded-3xl mr-8 text-sm px-8 py-[7px] font-semibold hover:bg-[rgba(61,0,183,0.88)] hidden sm:inline">
+          <button className="nft-btn">
             Upload
           </button>
-          <button className="border-[rgb(61,0,183)] border-2 rounded-3xl text-[rgb(61,0,183)] text-sm py-1 px-6 font-semibold">
+          <button className="border-[rgb(61,0,183)] border-2 rounded-full text-[rgb(61,0,183)] text-sm py-1 px-6 font-semibold">
             Connect Wallet
           </button>
         </div>

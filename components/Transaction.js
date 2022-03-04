@@ -5,7 +5,7 @@ import CardSquare from "../public/chart-square-2.png"
  
 const Transaction = () => {
   return (
-    <div className="sm:bg-[#D9E0EC33] h-[326px] flex flex-col items-center justify-center">
+    <div className="sm:bg-[#D9E0EC33] sm:h-[326px] flex flex-col items-center justify-center">
       <div className="w-10/12 mx-auto grid sm:grid-cols-3 gap-4">
       <div>
         <h2 className="sm:text-[28px] font-extrabold w-10/12">THE AMAZING NFT ART OF THE WORLD HERE</h2>

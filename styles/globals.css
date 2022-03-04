@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nft-btn {
+    @apply bg-[rgb(61,0,183)] rounded-full font-semibold text-white  mr-8 text-sm px-8 py-[7px]  hover:bg-[rgba(61,0,183,0.88)] hidden sm:inline;
+  }
+  .nft-nav {
+    @apply text-sm font-semibold cursor-pointer;
+  }
+}
