@@ -54,7 +54,7 @@ const Collection = () => {
                 />
                 <p className="text-sm font-semibold ml-4">by Shakil77</p>
                 </div>
-                <p className="border rounded-2xl border-[#2639ED] text-[#2639ED] text-sm px-2 py-[2px] font-semibold">Total 54 items</p>
+                <p className="border rounded-2xl border-[#2639ED] text-[#2639ED] text-sm px-2 py-[2px] font-semibold cursor-pointer">Total 54 items</p>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ const Collection = () => {
                 />
                 <p className="text-sm font-semibold ml-4">by Shakil77</p>
                 </div>
-                <p className="border rounded-2xl border-[#2639ED] text-[#2639ED] text-sm px-2 py-[2px] font-semibold">Total 54 items</p>
+                <p className="border rounded-2xl border-[#2639ED] text-[#2639ED] text-sm px-2 py-[2px] font-semibold cursor-pointer">Total 54 items</p>
               </div>
             </div>
           </div>
@@ -140,7 +140,7 @@ const Collection = () => {
                 />
                 <p className="text-sm font-semibold ml-4">by Shakil77</p>
                 </div>
-                <p className="border rounded-2xl border-[#2639ED] text-[#2639ED] text-sm px-2 py-[2px] font-semibold">Total 54 items</p>
+                <p className="border rounded-2xl border-[#2639ED] text-[#2639ED] text-sm px-2 py-[2px] font-semibold cursor-pointer">Total 54 items</p>
               </div>
             </div>
           </div>

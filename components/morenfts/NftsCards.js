@@ -43,7 +43,7 @@ const NftsCards = () => {
                 </div>
                 <div className='flex items-center justify-between text-sm pt-2'>
                     <p className='bg-[#DCDCDC] rounded-full px-4 py-1 text-[#371C87] font-semibold'>3h 40m 1s left</p>
-                    <p className='font-semibold text-[#371C87]'>place a bid</p>
+                    <p className='font-semibold text-[#371C87] cursor-pointer'>place a bid</p>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@ const NftsCards = () => {
                 </div>
                 <div className='flex items-center justify-between text-sm pt-2'>
                     <p className='bg-[#DCDCDC] rounded-full px-4 py-1 text-[#371C87] font-semibold'>3h 40m 1s left</p>
-                    <p className='font-semibold text-[#371C87]'>place a bid</p>
+                    <p className='font-semibold text-[#371C87] cursor-pointer'>place a bid</p>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@ const NftsCards = () => {
                 </div>
                 <div className='flex items-center justify-between text-sm pt-2'>
                     <p className='bg-[#DCDCDC] rounded-full px-4 py-1 text-[#371C87] font-semibold'>3h 40m 1s left</p>
-                    <p className='font-semibold text-[#371C87]'>place a bid</p>
+                    <p className='font-semibold text-[#371C87] cursor-pointer'>place a bid</p>
                 </div>
             </div>
         </div>
@@ -148,7 +148,7 @@ const NftsCards = () => {
                 </div>
                 <div className='flex items-center justify-between text-sm pt-2'>
                     <p className='bg-[#DCDCDC] rounded-full px-4 py-1 text-[#371C87] font-semibold'>3h 40m 1s left</p>
-                    <p className='font-semibold text-[#371C87]'>place a bid</p>
+                    <p className='font-semibold text-[#371C87] cursor-pointer'>place a bid</p>
                 </div>
             </div>
         </div>

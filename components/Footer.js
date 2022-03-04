@@ -13,39 +13,39 @@ const Footer = () => {
           Euismod Porttitor Condimentum Porttitor Ornare Tristique Ullamcorper Consectetur Elementum Tristique Aptent
           </p>
           <div className="flex items-center space-x-2">
-            <div>
+            <div className="cursor-pointer">
               <Image src={Facebook} alt="" width={"30px"} height={"30px"} />
             </div>
-            <div>
+            <div className="cursor-pointer">
               <Image src={Twitter} alt="" width={"30px"} height={"30px"} />
             </div>
-            <div>
+            <div className="cursor-pointer">
               <Image src={Linkedin} alt="" width={"30px"} height={"30px"} />
             </div>
           </div>
         </div>
       </div>
       <div>
-        <p className="font-semibold mb-4">Market Place</p>
+        <p className="font-semibold mb-4 cursor-pointer">Market Place</p>
         <ul className="space-y-2">
-          <li className="text-sm text-gray-500">All NFTs</li>
-          <li className="text-sm text-gray-500">New</li>
-          <li className="text-sm text-gray-500">Art</li>
-          <li className="text-sm text-gray-500">Sports</li>
-          <li className="text-sm text-gray-500">Utility</li>
+          <li className="text-sm text-gray-500 cursor-pointer">All NFTs</li>
+          <li className="text-sm text-gray-500 cursor-pointer">New</li>
+          <li className="text-sm text-gray-500 cursor-pointer">Art</li>
+          <li className="text-sm text-gray-500 cursor-pointer">Sports</li>
+          <li className="text-sm text-gray-500 cursor-pointer">Utility</li>
         </ul>
       </div>
       <div>
-        <p className="font-semibold mb-4">My Account</p>
+        <p className="font-semibold mb-4 cursor-pointer">My Account</p>
         <ul className="space-y-2">
-          <li className="text-sm text-gray-500">Profile</li>
-          <li className="text-sm text-gray-500">Favorite</li>
-          <li className="text-sm text-gray-500">My Collections</li>
-          <li className="text-sm text-gray-500">Setting</li>
+          <li className="text-sm text-gray-500 cursor-pointer">Profile</li>
+          <li className="text-sm text-gray-500 cursor-pointer">Favorite</li>
+          <li className="text-sm text-gray-500 cursor-pointer">My Collections</li>
+          <li className="text-sm text-gray-500 cursor-pointer">Setting</li>
         </ul>
       </div>
       <div className="space-y-4">
-        <p className="font-semibold">Stay In The Loop</p>
+        <p className="font-semibold cursor-pointer">Stay In The Loop</p>
         <p className="text-sm text-gray-500">
         Est Lacus Porta Platea Rhoncus Ullamcorper Mauris Sociosqu Taciti Nostra Facilisis Leo Libero Volutpat Consectetur
         </p>
